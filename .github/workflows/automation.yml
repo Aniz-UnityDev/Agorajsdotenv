@@ -1,7 +1,7 @@
 name: Agora TokenServer Generator JS HCl
 on: push
-jons
-first-job;
+jobs:
+first-job:
 name: Build withNode
 runs-on: ubuntu-latest
 container: node:12:18.4
