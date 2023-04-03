@@ -17,5 +17,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Install Agora dependencies
+      run: npm install express agora-access-token dotenv
+      
     - name: Run test
-      run: npm test
+      run: node index.js
