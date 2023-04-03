@@ -2,7 +2,7 @@
   "name": "agorajsdotenv",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js"
+  "main": "index.js",
   
    "dependencies": {
     "agora-access-token": "^2.0.4",
