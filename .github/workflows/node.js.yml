@@ -13,6 +13,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          start: npm start
+          start: npm start index.js
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:8080'
