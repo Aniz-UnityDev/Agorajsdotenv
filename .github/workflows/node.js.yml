@@ -15,5 +15,5 @@ jobs:
         with:
           start: npm run start
           # quote the url to be safe against YML parsing surprises
-          wait-on: 'http://localhost:8080'
+          wait-on: 'http://127.0.0.1:8080/'
           wait-on-timeout: 210
